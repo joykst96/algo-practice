@@ -4,32 +4,39 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
-import java.util.stream.IntStream;
 
-public class BOJ_15649 {
+public class BOJ_15654 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		StringBuilder sb = new StringBuilder();
-		int[] nums = IntStream.range(1, Integer.parseInt(st.nextToken()) + 1).toArray();
+		int N = Integer.parseInt(st.nextToken());
 		int r = Integer.parseInt(st.nextToken());
-		
+		st = new StringTokenizer(br.readLine());
+		int[] nums = new int[N];
+		for (int i = 0; i < N; i++) {
+			nums[i] = Integer.parseInt(st.nextToken());
+		}
+		Arrays.sort(nums);
 		int[][] result = permutation(nums, r);
+		
 		for (int[] arr: result) {
 			for (int i: arr) {
 				sb.append(i + " ");
 			}
 			sb.append("\n");
 		}
+		
 		System.out.println(sb);
 	}
 
 	private static int[][] permutation(int[] nums, int r) {
 		List<int[]> result = new ArrayList<>();
 		permutation(nums, new int[r], new boolean[nums.length], 0, r, result);
-		return result.toArray(new int[0][0]);
+		return result.toArray(new int[0][r]);
 	}
 
 	private static void permutation(int[] nums, int[] out, boolean[] isSelected, int depth, int r, List<int[]> result) {
