@@ -30,7 +30,7 @@ public class SWEA_6853 {
 				int x = point[0];
 				int y = point[1];
 				// 안에있을때
-				if (s1[0] < x && x < s2[0] && s1[1] < y && y <s2[1]) {
+				if (s1[0] < x && x < s2[0] && s1[1] < y && y < s2[1]) {
 					++case1;
 				}
 				// 테두리에 겹칠때
