@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_2630 {
+public class BOJ_2630_색종이_만들기 {
 	static int[] colors = new int [2]; 
 	
 	public static void main(String[] args) throws IOException{

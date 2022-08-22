@@ -9,7 +9,7 @@ import java.io.*;
  * 
  */
 
-public class SWEA_8382_방향전환2 {
+public class SWEA_8382_방향전환 {
 	public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("data/SWEA_8382.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

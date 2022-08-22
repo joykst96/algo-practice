@@ -3,6 +3,12 @@ package com.joykst96.practice.boj;
 import java.util.*;
 import java.io.*;
 
+/*
+ *  메모리: 25584 KB
+ *  시간: 336 ms
+ * 
+ */
+
 public class BOJ_3190_뱀 {
 	static class Location {
 		int r, c;

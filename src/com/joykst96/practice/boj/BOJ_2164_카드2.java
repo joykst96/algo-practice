@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BOJ_2164 {
+public class BOJ_2164_카드2 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		// 맨 앞 원소를 아주 빈번하게 삭제시킬것이기 때문에 LL사용

@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class SWEA_1225 {
+public class SWEA_1225_암호생성기 {
 	public static void main(String[] args) throws IOException{
 		System.setIn(new FileInputStream("data/SWEA_1225.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

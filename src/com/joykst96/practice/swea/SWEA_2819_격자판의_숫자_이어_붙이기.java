@@ -10,7 +10,7 @@ import java.io.*;
  * 
  */
 
-public class SWEA_2819_격자판의숫자이어붙이기 {
+public class SWEA_2819_격자판의_숫자_이어_붙이기 {
 
 	static Set<String> output;
 	static int[][] map;

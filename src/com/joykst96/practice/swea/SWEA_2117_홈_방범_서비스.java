@@ -10,7 +10,7 @@ import java.io.*;
  * 
  */
 
-public class SWEA_2117_홈방범서비스 {
+public class SWEA_2117_홈_방범_서비스 {
 
 	static int N, M, maxCustomer, homes;
 	static int[][] map;

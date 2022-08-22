@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class SWEA_2001 {
+public class SWEA_2001_파리_퇴치 {
 	public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("data/SWEA_2001.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

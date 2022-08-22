@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class SWEA_6853 {
+public class SWEA_6853_직사각형과_점 {
 	public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("data/SWEA_6853.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

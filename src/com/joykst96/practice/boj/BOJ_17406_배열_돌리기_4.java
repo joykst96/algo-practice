@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_17406 {
+public class BOJ_17406_배열_돌리기_4 {
 	static int minValue = 50000;
 	
 	public static void main(String[] args) throws IOException {

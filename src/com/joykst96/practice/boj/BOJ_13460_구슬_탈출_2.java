@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  * 
  */
 
-public class BOJ_13460 {
+public class BOJ_13460_구슬_탈출_2 {
 	static boolean isClear = false;
 	static int[] hole = new int[2];
 	

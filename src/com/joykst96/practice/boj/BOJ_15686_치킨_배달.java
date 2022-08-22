@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
  *  BFS 시간초과 -> 점간의 거리 
  */
 
-public class BOJ_15686 {
+public class BOJ_15686_치킨_배달 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());

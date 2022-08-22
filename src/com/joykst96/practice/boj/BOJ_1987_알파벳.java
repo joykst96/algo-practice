@@ -9,7 +9,7 @@ import java.util.*;
  *  
  */
 
-public class BOJ_1987 {
+public class BOJ_1987_알파벳 {
 	static int R, C, max;
 	static char[][] map;
 	static Set<Character> visited;

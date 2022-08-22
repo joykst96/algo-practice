@@ -16,7 +16,7 @@ class Node {
 	}
 }
 
-public class BOJ_1991 {
+public class BOJ_1991_트리_순회 {
 	static StringBuilder sb = new StringBuilder();
 	
 	public static void main(String[] args) throws IOException {

@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class SWEA_1218 {
+public class SWEA_1218_괄호_짝짓기 {
 	public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("data/SWEA_1218.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

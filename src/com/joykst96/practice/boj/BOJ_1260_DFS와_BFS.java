@@ -3,7 +3,7 @@ package com.joykst96.practice.boj;
 import java.io.*;
 import java.util.*;
 
-public class BOJ_1260 {
+public class BOJ_1260_DFS와_BFS {
 	
 	static StringBuilder sb = new StringBuilder();
 	static List<Integer>[] graph;

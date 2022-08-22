@@ -8,7 +8,7 @@ import java.io.*;
  * 
  */
 
-public class BOJ_16637_괄호추가하기 {
+public class BOJ_16637_괄호_추가하기 {
 	
 	static int max = Integer.MIN_VALUE;
 	

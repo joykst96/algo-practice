@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
  * 
  */
 
-public class BOJ_16173 {
+public class BOJ_16173_점프왕_쩰리_Small {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;

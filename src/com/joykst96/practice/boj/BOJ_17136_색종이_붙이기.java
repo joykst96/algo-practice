@@ -9,7 +9,7 @@ import java.io.*;
  * 
  */
 
-public class BOJ_17136_색종이붙이기 {
+public class BOJ_17136_색종이_붙이기 {
 	static int[] papers = {5, 5, 5, 5, 5};
 	static int min = 26;
 	
