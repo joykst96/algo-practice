@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-public class SWEA_9229 {
+public class SWEA_9229_한빈이와_Spot_Mart {
 	public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("data/SWEA_9229.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
